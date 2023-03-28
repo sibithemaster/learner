@@ -1,0 +1,274 @@
+https://github.com/sibithemaster/firstrepo.git
+https://github.com/sibithemaster/learner.git
+
+//java compile command javac classname.java
+//java run command java classname
+
+//this
+ The this keyword is used to represent 
+ the current instance of a class. 
+ It is used to access the instance variables 
+ and invoke current class methods and constructors. 
+ This keyword is used to refer the current class object.
+ 
+
+//super
+The super keyword is used to represent an instance 
+of the parent class which is created implicitly 
+for each object of the child class. 
+The super keyword can be used to invoke 
+the parent class methods and constructors.
+
+
+
+arrays
+
+
+
+
+
+Data types:
+
+int a=10;
+primitive:
+
+int     -->10
+float   -->0.5f
+double  -->10000.500
+long    -->9003690138l
+byte    -->12
+short   -->123
+char   --->'a'
+boolean --->true or false
+
+non-primitive:
+String-->"prasana122@gmail.com"
+
+
+Operators in java:
+
+Operator Type   	Category	          Precedence
+
+Unary	            postfix	              e++ e--
+                    prefix	              ++e --e 
+                                          +e -e ~ !
+                                          
+Arithmetic	       multiplicative	      * / %
+                   additive	              + -
+                   
+Shift	           shift	              << >> >>>
+
+Relational	       comparison	          < > <= >=
+                                          instanceof
+                   equality	              == !=
+                   
+Bitwise	           bitwise AND	          &
+                   bitwise exclusive OR	  ^
+                  
+Logical	           logical AND	          &&
+                   logical OR	          ||
+                   
+                   
+Ternary	           ternary	              ? :
+
+Assignment	       assignment	          = += -= *= 
+                                          /= %= &= ^= 
+                                          |= <<= 
+                                          >>= >>>=
+
+
+//conditional statements
+1.if
+2.if - else
+3.else if
+4.nested if
+5.switch
+
+
+1.if syntax:
+
+if(condition)
+{
+  //statements
+} 
+
+2.if - else syntax:
+
+if(condition)
+{
+  //statements
+}
+else
+{
+  //statements
+}
+
+3.else if syntax:
+
+if(condition)
+{
+  //statements
+}
+else if(condition)
+{
+  //statements
+}
+else
+{
+  //statements
+}
+
+
+4.nested if syntax:
+
+if(condition)
+{
+  if(condition)
+  {
+     //statements
+  } else{
+     //statements
+  }
+}else{
+   //statements
+}
+
+5.switch syntax:
+
+switch(condition){
+  case 1://statements
+         //break;
+  case 2://statements
+         //break;
+  case 3://statements
+         //break;
+  default://statements
+          //break;
+         
+}
+
+
+Access Modifiers:
+public,protected,default,private
+
+public -access through out the project package
+protected -
+default-
+private-inside the class only scope will be there
+
+loops(To avoid repetition)
+1.while
+2.do-while
+3.for
+4.for each or enchanced loop
+
+while syntax:
+while(condition){
+   //statements
+   //increment/decrement
+}
+
+
+do-while syntax:
+do{
+   //statements
+   //increment/decrement
+}while(condition);
+
+for syntax:
+for(Initialization:condition:increment/decrement){
+   //statements
+}
+
+13/1 and 13/13
+
+It is the mechanism in java by which one class 
+is allowed to inherit the features(fields and methods) of another class. 
+In Java, 
+inheritance means creating new classes based on existing ones. 
+Types of inheritance:
+Single Inheritance
+Multiple Inheritance
+Multilevel Inheritance
+Hierarchical Inheritance
+Hybrid Inheritance
+
+keyword -->extends
+
+parent/base/super class
+
+child/
+
+
+
+
+The wrapper class in Java provides the mechanism to convert 
+primitive into object and object into primitive.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keyword -->extends
+
+
+A-->parent class
+^
+|
+|
+B-->child  class
+
+
+A                B
+^                ^
+|                |
+|______________  |
+       C
+       
+       
+A-->Grandparent class
+^
+|
+|
+B-->parent  class
+^
+|
+|
+C-->child  class       
+
+
+
+parent class A
+         B   C   D  
+
+
+A--->GP
+|
+B--->Parent
+|
+Son -->child
+-childOne
+-childTwo
+
+
