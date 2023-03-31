@@ -1,6 +1,6 @@
 package com.abstraction;
 
-public abstract  class Animals {
+public abstract class Animals {
 	
 	abstract void animalTypes();
 	

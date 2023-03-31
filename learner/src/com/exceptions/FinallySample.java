@@ -3,11 +3,12 @@ package com.exceptions;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class FinallySample {
-
+public class FinallySample 
+{
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
 		int c;
+
 		try{  
 			//code that may raise exception  
 			System.out.println("Enter first number");
@@ -17,7 +18,6 @@ public class FinallySample {
 			c=a/b;  
 			System.out.println(c);
 		}	
-		
 		catch(ArithmeticException e)
 		{
 			System.out.println(e.getMessage());
@@ -30,6 +30,7 @@ public class FinallySample {
 		catch(Exception ex) {
         	System.out.println(ex.getMessage());
 		}
+		
 		finally {
 			System.out.println("rest of the code...");
 		} 

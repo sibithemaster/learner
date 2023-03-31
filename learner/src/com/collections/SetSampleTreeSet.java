@@ -31,7 +31,13 @@ public class SetSampleTreeSet {
 		ss.add(120);
 
 		System.out.println(ss);
-		System.out.println(ss.equals(s));
+		if(ss.equals(s))
+		{
+			System.out.println("true");
+		}else {
+			System.out.println("false");
+		}
+		
 //
 	}
 

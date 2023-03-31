@@ -11,6 +11,9 @@ public class Prasana
 	//	how to create object
 	//	classname objectname = new classname();
 		
+		final int a=10;
+	//	a=20;
+		System.out.println(a);
 	}
 }
 //methods types

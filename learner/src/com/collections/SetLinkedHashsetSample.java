@@ -13,7 +13,8 @@ public class SetLinkedHashsetSample
 		s.add(9003690138l);
 		s.add(true);		
 		System.out.println(s);		
-		for(Object i:s)
+		
+		for(Object i:s)	
 		{
 			System.out.println(i);
 		}	
@@ -24,8 +25,9 @@ public class SetLinkedHashsetSample
 		s.addAll(ss);
 		s.remove(10);
 		System.out.println(s);		
-//	//	System.out.println(s.hashCode());
-//		s.removeAll(ss);
+	    System.out.println(ss.hashCode());
+		s.removeAll(ss);
+		System.out.println(s);
 //		System.out.println(s.removeAll(ss));
 		s.clear();
 		System.out.println(s);

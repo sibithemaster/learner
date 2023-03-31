@@ -10,11 +10,14 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number");
 		int age=sc.nextInt();			
-		try {
+		try 
+		{
 			// Throw an object of user defined exception
 			if(age>18) {
 				System.out.println("Eligible to vote");
-			}else {
+			}
+			else 
+			{
 				throw new MyException("Not Eligible to vote");
 			}
 		}
