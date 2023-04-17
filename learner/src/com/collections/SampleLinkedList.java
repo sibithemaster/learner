@@ -21,20 +21,18 @@ public class SampleLinkedList {
 		m.add(80);
 		m.add(90);
 		m.add(100);
+		m.add(200);
 		
 		System.out.println("List l ==>"+l);
 		System.out.println("List m ==>"+m);
 		
 		m.addAll(l);
 		
-		System.out.println(m);
-		
-		
-		
+		System.out.println(m);	
 
 		l.add(0, 100);
 		System.out.println(l);
-		System.out.println(l.contains(1000));
+		System.out.println(l.contains(100));
 		System.out.println(l.indexOf(50));
 		System.out.println(l.isEmpty());
 		System.out.println(l.remove(4));

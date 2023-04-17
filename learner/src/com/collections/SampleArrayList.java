@@ -8,6 +8,7 @@ public class SampleArrayList {
 
 	public static void main(String[] args) 
 	{
+		//type casting -- downcasting
 		List l=new ArrayList();
 		
 		l.add(100);
@@ -20,6 +21,8 @@ public class SampleArrayList {
 		l.add(true);		
 		l.add(1);
 		l.add(2);		
+		l.add(10);
+		
 		
 		System.out.println(l);
 		System.out.println(l.size());

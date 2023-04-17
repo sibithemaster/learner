@@ -2,12 +2,6 @@ import java.util.Scanner;
 
 public class WithOutArgumentAndWithOutRetutnType 
 {
-
-	public static void main(String[] args) 
-	{
-		WithOutArgumentAndWithOutRetutnType.additionOfTwoNumbers();
-	}
-	
 	public static void additionOfTwoNumbers()
 	{
 		Scanner sc = new Scanner(System.in);
@@ -16,8 +10,8 @@ public class WithOutArgumentAndWithOutRetutnType
 		System.out.println("Enter value for b");
 		int b=sc.nextInt();
 		System.out.println(a+b);
-		//return
 	}
-	
-
+	public static void main(String[] args) {
+		WithOutArgumentAndWithOutRetutnType.additionOfTwoNumbers();
+	}
 }

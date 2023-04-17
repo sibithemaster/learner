@@ -1,12 +1,13 @@
 package com.collections;
-import java.util.Collections;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 
-public class LinkedHashMapSample {
+public class LinkedHashMapSample extends SampleTreemap{
 	public static void main(String[] args) {
+		
 		Map<Integer,Double> m = 
 				new LinkedHashMap<Integer,Double>();
 		m.put(5, 10000.500);
@@ -28,9 +29,7 @@ public class LinkedHashMapSample {
 		m.put(5, 1111.234);
 		
 		System.out.println(m);
-	//	Collections.sort(m);
-		
-
+        
 //		float a=1,b=2,c=a/b;
 //		System.out.println(c);
 	}

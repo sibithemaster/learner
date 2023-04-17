@@ -10,9 +10,9 @@ public class CallEmployee
 		e.setName("Anil");
 		e.setPhoneNumber(9898898988l);
 	
-		System.out.println(e.getName());
-		System.out.println(e.getEmailId());
-		System.out.println(e.getPhoneNumber());
+		System.out.println("Employee Name : "+e.getName());
+		System.out.println("Employee email : "+e.getEmailId());
+		System.out.println("Employee phone number : "+e.getPhoneNumber());
 
 	}
 }

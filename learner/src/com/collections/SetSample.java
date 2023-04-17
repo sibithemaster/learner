@@ -8,24 +8,24 @@ import java.util.Set;
 
 public class SetSample {
 	public static void main(String[] args) {
-//		Set<String> s=new HashSet<String>();		
-//		s.add("deepak");
-//		s.add("roshini");
-//		s.add("geetha");
-//		s.add("nandha");
-//		s.add("arun");		
-//		s.add("arun");
-//		System.out.println(s);
-//		
-////		for(int i=1;i<s.size();i++)
-////		{
-////			System.out.println(s.get());
-////		}				
-//		//enhanced or for each loop
-//		for(String i:s)
+		Set<String> s=new HashSet<String>();		
+		s.add("deepak");
+		s.add("roshini");
+		s.add("geetha");
+		s.add("nandha");
+		s.add("arun");		
+		s.add("arun");
+		System.out.println(s);
+		
+//		for(int i=1;i<s.size();i++)
 //		{
-//			System.out.println(i);
-//		}
+//			System.out.println(s.get(i));
+//		}				
+		//enhanced or for each loop
+		for(String i:s)
+		{
+			System.out.println(i);
+		}
 		
         Set l=new HashSet();
 		
@@ -46,8 +46,6 @@ public class SetSample {
 		for(Object  i:l) 
 		{	
 			System.out.println(i);
-		}
-		
-		
+		}		
 	}
 }

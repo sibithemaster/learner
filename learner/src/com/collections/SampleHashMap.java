@@ -9,20 +9,23 @@ import java.util.Set;
 public class SampleHashMap {
 	public static void main(String[] args) {
 		Map<Integer,String> m = new HashMap<Integer,String>();
-		m.put(1, "Jhon");
-		m.put(2, "Anil");
-		m.put(3, "Kumar");
-		m.put(4, "Anil");
 		m.put(null, "Vijay");
 		m.put(null, "Jhon");
 		m.put(6, null);
 		m.put(7, null);
+		m.put(1, "Jhon");
+		m.put(1, "Kane");
+		m.put(2, "Anil");
+		m.put(3, "Kumar");
+		m.put(4, "Anil");
+		m.put(5, "Krishna");
+		
 		System.out.println(m);
 		
-		Set<Entry<Integer, String>> s =m.entrySet();
-		for(Entry<Integer, String> x:s)
+		Set<Map.Entry<Integer,String>> set =m.entrySet();
+		for(Entry<Integer, String> map : set)
 		{
-		System.out.println(x);
+		System.out.println(map);
 		}
 		
 ////		System.out.println(m);

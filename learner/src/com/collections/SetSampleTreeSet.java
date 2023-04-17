@@ -24,12 +24,23 @@ public class SetSampleTreeSet {
 		}
 		
 		Set<Integer> ss=new TreeSet<Integer>();		
-		ss.add(110);
-		ss.add(150);
-		ss.add(130);
-		ss.add(140);
-		ss.add(120);
+//		ss.add(110);
+//		ss.add(150);
+//		ss.add(130);
+//		ss.add(140);
+//		ss.add(120);
 
+		ss.add(10);	
+		ss.add(80);
+		ss.add(20);
+		ss.add(70);
+		ss.add(30);
+		ss.add(60);		
+		ss.add(40);
+		ss.add(10);		
+		ss.add(50);
+		ss.add(100);
+		ss.add(90);
 		System.out.println(ss);
 		if(ss.equals(s))
 		{
@@ -37,7 +48,7 @@ public class SetSampleTreeSet {
 		}else {
 			System.out.println("false");
 		}
-		
+
 //
 	}
 

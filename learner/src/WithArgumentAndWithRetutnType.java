@@ -1,12 +1,6 @@
 
 public class WithArgumentAndWithRetutnType 
 {
-	public static void main(String[] args) 
-	{
-		WithArgumentAndWithRetutnType  both = new WithArgumentAndWithRetutnType();
-
-		System.out.println(both.multiplicationOfTwoNumbers(200, 2));
-	}	
 	public int multiplicationOfTwoNumbers(int c,int d)
 	{
 		//200*2
@@ -14,5 +8,13 @@ public class WithArgumentAndWithRetutnType
 		//stored values are on method
 		return a;		
 	}
+	
+	public static void main(String[] args) 
+	{
+		WithArgumentAndWithRetutnType  both = new WithArgumentAndWithRetutnType();
+		
+		System.out.println(both.multiplicationOfTwoNumbers(200, 2));
+	}	
+	
 
 }

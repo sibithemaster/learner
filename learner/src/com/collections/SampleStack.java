@@ -13,10 +13,11 @@ public class SampleStack {
 		s.push("PYTHON");
 		s.push("RUBY");
 		
+		
 		System.out.println(s);
 		System.out.println(s.peek());	
 		System.out.println(s.pop());
-
+		System.out.println(s);
 	}
 
 }

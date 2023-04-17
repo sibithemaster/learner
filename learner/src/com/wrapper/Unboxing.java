@@ -5,16 +5,18 @@ public class Unboxing
 	public static void main(String args[])
 	{    
 		//Converting Integer to int    
-		Integer a=new Integer(3);
+		Integer id=new Integer(500);
 		
-		int i=a.intValue();//converting Integer to int explicitly
+		//converting Integer to int explicitly
+		int explicit=id.intValue();
 		
-		int j=a;//unboxing, now compiler will write a.intValue() internally    
+		//unboxing, now compiler will write a.intValue() internally
+		int internal=id;    
 
 		//System.out.println(a+" "+i+" "+j);  
-		System.out.println("Object variable value =======> "+a);  
-		System.out.println("Integer to int explicitly ===> "+i);
-		System.out.println("Object to primitive =========> "+j);
+		System.out.println("Object variable value =======> "+id);  
+		System.out.println("Integer to int explicitly ===> "+explicit);
+		System.out.println("Object to primitive =========> "+internal);
 		
 		
 //		String s="Object variable value ";

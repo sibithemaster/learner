@@ -24,13 +24,16 @@ public class SetLinkedHashsetSample
 		ss.add(2500000);
 		s.addAll(ss);
 		s.remove(10);
-		System.out.println(s);		
+		System.out.println(s);	
+		
+	    System.out.println(s.hashCode());
 	    System.out.println(ss.hashCode());
-		s.removeAll(ss);
+	    s.removeAll(ss);
 		System.out.println(s);
-//		System.out.println(s.removeAll(ss));
+////////		System.out.println(s.removeAll(ss));
 		s.clear();
 		System.out.println(s);
+		
 	}
 
 }

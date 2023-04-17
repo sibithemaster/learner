@@ -9,7 +9,9 @@ public class SampleTreemap {
 	public static void main(String[] args) {		
 		Map<String,Long> m = 
 				new TreeMap<String,Long>();	
-		m.put("si123@gmail.com", 9003691234l);
+//		m.put(null, null);
+		m.put("si123@gmail.com", null);
+		m.put("si123@gmail.com", 9003690138l);
 		m.put("india@gmail.com", 9503691234l);
 		m.put("anil54@gmail.com", 9123691234l);
 		m.put("kumar2@gmail.com", 963691234l);
@@ -23,6 +25,9 @@ public class SampleTreemap {
 		for(Entry<String,Long> x:s){
 		System.out.println(x);
 		}
+		
+//		a=20;
+//		System.out.println(a);
 	}
 
 }
